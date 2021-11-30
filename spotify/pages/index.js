@@ -4,16 +4,14 @@ import Sidebar from '../components/SideBar/Sidebar'
 export default function Home() {
   return (
     <div>
-  
-
-      
-
       <main>
         <Sidebar />
         {/* content */}
       </main>
 
-      {/* Player */}
+      <>
+      <h2>Player Media / Controls here.</h2>
+      </>
 
     </div>
   )
